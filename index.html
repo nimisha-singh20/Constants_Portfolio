@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo3.webp" class="logo"> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#personal">Personal Info</a></li>
+                <li><a href="#services">Acheivements</a></li>
+                <li><a href="#portfolio">My Work</a></li>               
+                <li><a href="pc.html">Profile Card</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software developer</p>
+            <h1>Hey there! <br>Welcome....<br>to the portfolio website</h1>
+        </div>
+    </div>
+</div>
+<!-----------about-------->
+<div id="about">
+
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="userpro1.png">
+            </div>
+            <div class="about-col-2">
+                <h1>About me<a href="cont.html" class="btn">Add</a></h1>
+                <p>....................</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    
+                    <ul>
+                        
+                        <li><span>_____</span><br>.........</li>
+                        <li><span>_____</span><br>.........</li>
+                        <li><span>_____</span><br>.........</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>Design</li>
+                        <li><span> UI UX</span><br>Design</li>
+                        <li><span> UI UX</span><br>Design</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> 2018</span><br>Class 10</li>
+                        <li><span> 2020</span><br>Class 12</li>
+                        <li><span> 2025</span><br>Degree</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Acheivements</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Certificates</h2>
+                <p>_______</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Medals</h2>
+                <p>_______</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-app-store"></i>
+                <h2>Skills</h2>
+                <p>_______</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="bgd2.jpg">
+                <div class="layer">
+                    <h3>Project 1</h3>
+                    <p>____description_______________</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="bgd2.jpg">
+                <div class="layer">
+                    <h3>Project 2</h3>
+                    <p>____description_______________</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="bgd2.jpg">
+                <div class="layer">
+                    <h3>Project 3/h3>
+                    <p>____description_______________</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------------contacts----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fas fa-paper-plane"></i>contact whfgwilsuh</p>
+                <p><i class="fas fa-phone-square-alt"></i>837598..</p>
+                <div class="social-icons">
+                    <a href="https:facebook......."><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="my_cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Constants. <i class="fas fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+
+</script> 
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right="0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right="-200px";
+    }
+
+</script>  
+</body>
+</html>
